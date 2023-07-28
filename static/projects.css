@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#logo{
+    float: left;
+    padding-left: 5px;
+    padding-bottom: 7px;
+    height: 27px;
+}
+.navitems{
+    float: left;
+    width: 100vw;
+    padding-top: 12px;
+    padding-bottom: 6px;
+    background-color: rgb(117, 154, 255);
+    }
+.navitems .a{
+    display: inline;
+    list-style: none;
+    padding: 23px 19px;
+    
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+.navitems .a:hover{
+    background-color: white;
+    text-decoration: none;
+
+
+
+
+}
+.navitems .c{
+       text-align: center;
+        list-style: none;
+        width: 150px;
+        padding-right: 20px;
+        margin-right: 25px;
+        padding: 5px;
+        float: right;
+        background-color: whitesmoke;
+        color: black;
+        border-radius:11px;
+    }
+    .box{
+        width: 100vw;
+        height: 100vh;
+        background-color: rgb(214, 225, 255);
+
+    }
+
+    .web{
+        float: left;
+        /* border: 2px solid red; */
+        height: 80vh;
+        width: 47vw;
+    }
+    .head1{
+        display: inline-block;
+        margin-top: 86px;
+        margin-bottom: 42px;
+        margin-left:6vw;
+        /* border: 2px solid blue; */
+        /* text-align: center; */
+        padding: 5px;
+        
+        background-color: rgb(139, 139, 243);
+        border-radius:12px;
+        
+    }
+    .pr1{
+        margin: 2px 2px 0px 10px;
+        font-weight: bolder;
+            margin-bottom: 9px;
+    }
+    .prp1{
+        margin-left: 32px;
+    }
+
+    .app{
+        /* border: 2px solid yellow; */
+        float: right;
+        
+        height: 80vh;
+        width: 47vw;
+    }
+
+    .head2{
+        display: inline-block;
+        margin-top: 86px;
+        margin-bottom: 42px;
+        margin-left:6vw;
+        border-radius: 12px;
+        background-color: rgb(139, 139, 243);
+/* border: 2px solid blueviolet; */
+        padding: 5px;
+
+
+    }
+    .pr2{        margin-left: 32px;
+            font-weight: bolder;
+            margin-bottom: 9px;
+
+    }
+    .prp2{
+        margin-left: 55px;
+    }
+    .pr2_1{        margin-left: 32px;
+            font-weight: bolder;
+            margin-bottom: 9px;
+
+    }
+    .prp2_1{
+        margin-left: 55px;
+    }
+   
+    .gitlink{
+        display: block;
+        text-align: center;
+        /* border: 2px solid red; */
+        background-color: rgb(137, 137, 238);
+        border-radius: 6px;
+        color: whitesmoke;
+        margin: 4px;
+        padding: 3px;
+        
+    }
+    /* .logo1{
+        height: 39px;
+        width: 39px;
+        margin: 6px 39px;
+    }
+    .logo2{
+        height: 39px;
+        width: 39px;
+        margin: 6px 39px;
+    }
+    .logo3{
+        height: 39px;
+        width: 39px;
+        margin: 6px 39px;
+    }
+    .logo4{
+        height: 39px;
+        width: 39px;
+        margin: 6px 39px;
+    }
+    
+    footer{
+        width: 99vw;
+        display: flex;
+        background-color: rgb(117, 154, 255);
+    } */
+    

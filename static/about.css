@@ -1,0 +1,78 @@
+ @import url('https://fonts.googleapis.com/css2?family=Anton&family=Barlow:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#logo{
+    float: left;
+    padding-left: 5px;
+    padding-bottom: 7px;
+    height: 27px;
+}
+.navitems{
+    float: left;
+    width: 100vw;
+    padding-top: 12px;
+    padding-bottom: 6px;
+    background-color: rgb(117, 154, 255);
+    }
+.navitems .a{
+    display: inline;
+    list-style: none;
+    padding: 23px 19px;
+    
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+.navitems .a:hover{
+    background-color: white;
+    text-decoration: none;
+
+
+
+
+}
+.navitems .c{
+       text-align: center;
+        list-style: none;
+        width: 150px;
+        padding-right: 20px;
+        margin-right: 25px;
+        padding: 5px;
+        float: right;
+        background-color: whitesmoke;
+        color: black;
+        border-radius:11px;
+    }
+   
+    
+    .about{
+
+        /* width: 500px; */
+        /* height: 95vh; */
+        display: inline-block;
+        width: 50vw;
+        margin: 200px 25vw;
+        /* border: 2px solid red; */
+        text-align: center;
+        /* margin-top: 200px; */
+    }
+    #ab{
+        font-family: 'Anton', sans-serif;
+                color: black;
+        /* font-size: large; */
+        /* font-weight: bolder; */
+    }
+    .abb{
+        height: 100vh;
+        background-color: rgb(214, 225, 255);
+        
+    }
+    
+    
+ 

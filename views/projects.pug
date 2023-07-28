@@ -1,0 +1,42 @@
+html 
+    head 
+    title ="portfolio"
+    body
+        style 
+            include ../static/projects.css
+        header 
+            nav  
+                ul.navitems 
+                    img#logo(src=' ../static/logo.jpg')
+                    li.a #[a(href="/port")  Home]
+                    li.a #[a(href="/projects") projects]
+                    li.a #[a(href="/qual") Qualification]
+                    li.a #[a(href="/about") About]
+                    li.c #[a(href="/contact") Contact Info]
+
+        div.box 
+            div.web
+                h1.head1 Web Development 
+                li.pr1 Portfolio website 
+                p.prp1 Made my portfolio website with html,css,javascript,nodejs,express,pug #[br] also i've used javascript for backend. 
+                a.gitlink(href="") github link                    
+            div.app
+                h1.head2 Apps Development
+                li.pr2 Calculator 
+                p.prp2 Made a calculator app using python and Tkinker.
+                a.gitlink(href="") github link
+                li.pr2_1 Movie Ticket Booking System
+                p.prp2_1 The project’s goal is to inform a consumer about the MOVIE TICKET BOOKING SYSTEM so that they can order tickets. The project was created with the goal of making the process as simple and quick as possible. The user can book tickets, cancel tickets, and view all booking records using the system. Our project’s major purpose is to supply various forms of client facilities as well as excellent customer service. It should meet nearly all the conditions for reserving a ticket.
+                a.gitlink(href="") github link
+                                
+        //- footer
+        //-     div.lind 
+        //-         a(href="https://www.linkedin.com/in/udit-jaiswal-278227220/" target="_blank") #[img.logo1(src='../static/lind.png')]                   
+        //-     div.lind  
+        //-         a(href="https://www.instagram.com/daydreamer___._/" target="_blank") #[img.logo2(src='../static/insta.png')]                
+        //-     div.lind 
+        //-         a(href="https://twitter.com/rnk__lajavaaab_" target="_blank") #[img.logo3(src='../static/twit.png')]                
+        //-     div.lind
+        //-         a(href="https://github.com/Jwaallaa" target="_blank") #[img.logo4(src='../static/git.png')]
+                                               
+        

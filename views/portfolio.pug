@@ -1,0 +1,34 @@
+html 
+    head 
+    title ="portfolio"
+    body
+        style 
+            include ../static/style.css
+        header 
+            nav  
+                ul.navitems 
+                    img#logo(src=' ../static/logo.jpg')
+                    li.a #[a(href="/port")  Home]
+                    li.a #[a(href="/projects") projects]
+                    li.a #[a(href="/qual") Qualification]
+                    li.a #[a(href="/about") About]
+                    li.c #[a(href="/contact") Contact Me]
+        
+            div.doo
+                div.secl
+                    img#avatar(src='../static/avatar.png')
+                div.secr
+                    h1.section1 Hi There 👋,I'm
+                    h1.section1 Udit Jaiswal    
+                    p.section1 I'm into web development and programming
+                
+            footer 
+                div.lind 
+                    a(href="https://www.linkedin.com/in/udit-jaiswal-278227220/" target="_blank") #[img.logo1.logo(src='../static/lind.png')]                   
+                div.lind  
+                    a(href="https://www.instagram.com/daydreamer___._/" target="_blank") #[img.logo2.logo(src='../static/insta.png')]                
+                div.lind 
+                    a(href="https://twitter.com/rnk__lajavaaab_" target="_blank") #[img.logo3.logo(src='../static/twit.png')]                
+                div.lind
+                    a(href="https://github.com/Jwaallaa" target="_blank") #[img.logo4.logo(src='../static/git.png')]
+                                               

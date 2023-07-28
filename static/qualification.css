@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#logo{
+    float: left;
+    padding-left: 5px;
+    padding-bottom: 7px;
+    height: 27px;
+}
+.navitems{
+    float: left;
+    width: 100vw;
+    padding-top: 12px;
+    padding-bottom: 6px;
+    background-color: rgb(117, 154, 255);
+    }
+.navitems .a{
+    display: inline;
+    list-style: none;
+    padding: 23px 19px;
+    
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+.navitems .a:hover{
+    background-color: white;
+    text-decoration: none;
+
+
+
+
+}
+.navitems .c{
+       text-align: center;
+        list-style: none;
+        width: 150px;
+        padding-right: 20px;
+        margin-right: 25px;
+        padding: 5px;
+        float: right;
+        background-color: whitesmoke;
+        color: black;
+        border-radius:11px;
+    }
+
+    .bio{
+        /* display: inline-block; */
+        float: left;
+        /* border: 2px solid red; */
+        /* background-color: aquamarine; */
+        width: 40vw;
+        height: 92vh;
+
+    }
+    .bio2{
+        /* display: inline-block; */
+        float: right;
+
+    }
+    .qual{
+        background-color: rgb(121, 121, 255);
+        border-radius: 13px;
+    }
+    .skill{
+        width: 40vw;
+        margin: 40px;
+        margin-top: 67px;
+    }
+    .qual{
+        padding: 4px;
+    }
+    .qual2_d{
+        margin: 9px 2px 2px 25px;
+        
+    }
+    .qual3_d{
+        margin: 9px 2px 2px 10px;
+
+    }
+    .qual4_d{
+        margin: 4px;
+
+    }
+    .qual5_d{
+        margin: 9px 2px 2px 25px;
+
+    }
+    .box{
+        width: 100vw;
+        height: 100vh;
+        background-color: rgb(214, 225, 255);
+        
+    }

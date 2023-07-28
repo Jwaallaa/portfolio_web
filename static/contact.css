@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Barlow:wght@100&family=Space+Grotesk:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#logo{
+    float: left;
+    padding-left: 5px;
+    padding-bottom: 7px;
+    height: 27px;
+}
+.navitems{
+    float: left;
+    width: 100vw;
+    padding-top: 12px;
+    padding-bottom: 6px;
+    background-color: rgb(117, 154, 255);
+    }
+.navitems .a{
+    display: inline;
+    list-style: none;
+    padding: 23px 19px;
+    
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+.navitems .a:hover{
+    background-color: white;
+    text-decoration: none;
+
+
+
+
+}
+.navitems .c{
+       text-align: center;
+        list-style: none;
+        width: 150px;
+        padding-right: 20px;
+        margin-right: 25px;
+        padding: 5px;
+        float: right;
+        background-color: whitesmoke;
+        color: black;
+        border-radius:11px;
+    }
+    .foo{
+        display: inline-block;
+        text-align: center;
+        margin:auto;
+        padding-top: 130px;
+        border: 2px solid rgb(129, 129, 252);
+        width: 100vw;
+        height: 100vh;
+        background-color: rgb(214, 225, 255);
+
+    }
+    .f{
+        /* margin: 15px; */
+        font-family: 'Anton', sans-serif;
+    }
+    .f4 label{
+        display: block;
+    }
+    .f4{
+        /* display:inline-block; */
+        text-align: center;
+        /* margin-left:39vw; */
+        /* border: 2px solid red; */
+     }
+     .foo input{
+        margin-top: 16px;
+        font-family: 'Anton', sans-serif;
+        width: 250px;
+     }
+     #btn{
+        width: 75px;
+        height: 25px;
+        background-color: rgb(117, 154, 255);
+        border: none;
+    }
+    #btn:hover {
+            cursor: grab;}

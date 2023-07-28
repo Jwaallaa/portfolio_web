@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#logo{
+    float: left;
+    padding-left: 5px;
+    padding-bottom: 7px;
+    height: 27px;
+}
+.navitems{
+    float: left;
+    width: 100vw;
+    padding-top: 12px;
+    padding-bottom: 6px;
+    background-color: rgb(117, 154, 255);
+    }
+.navitems .a{
+    display: inline;
+    list-style: none;
+    padding: 23px 19px;
+    
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+.navitems .a:hover{
+    background-color: white;
+    text-decoration: none;
+
+
+
+
+}
+.navitems .c{
+       text-align: center;
+        list-style: none;
+        width: 150px;
+        padding-right: 20px;
+        margin-right: 25px;
+        padding: 5px;
+        float: right;
+        background-color: whitesmoke;
+        color: black;
+        border-radius:11px;
+    }
+    
+    .doo{
+        /* background-color: rgb(68, 47, 37); */
+        /* background-image: url(../static/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+        height: 92vh;
+        width: 100vw;
+        background-color: rgb(214, 225, 255);
+        
+    }
+    
+    
+    
+    .secl{
+        margin: 26px 5px;
+        float: left;
+        width: 47%;
+        /* background-color: aqua; */
+        
+    }
+    .secr{
+        
+        /* background-color: aqua; */
+    float: right;
+    color: black;
+    width: 47%;
+    margin: 200px 0px 0px 9px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: bold;
+    
+}
+
+
+#avatar{
+    padding-left: 140px;
+     size: 100px;
+}
+
+
+
+.logo1{
+    height: 39px;
+    width: 39px;
+}
+.logo2{
+    height: 39px;
+    width: 39px;
+}
+.logo3{
+    height: 39px;
+    width: 39px;
+}
+.logo4{
+    height: 39px;
+    width: 39px;
+}
+
+footer{
+    width: 99vw;
+    display: flex;
+    background-color: rgb(117, 154, 255);
+}
+.logo{
+    margin: 6px 10vw;
+
+}

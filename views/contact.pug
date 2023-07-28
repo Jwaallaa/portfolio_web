@@ -1,0 +1,29 @@
+html 
+    head 
+    title ="portfolio"
+    body
+        style 
+            include ../static/contact.css
+        header 
+            nav  
+                ul.navitems 
+                    img#logo(src=' ../static/logo.jpg')
+                    li.a #[a(href="/port")  Home]
+                    li.a #[a(href="/projects") projects]
+                    li.a #[a(href="/qual") Qualification]
+                    li.a #[a(href="/about") About]
+                    li.c #[a(href="/contact") Contact Me]
+        form.foo(action='/about')
+            div.f1.f 
+                label(for="name") NAME: 
+                input(type="text" id='name' name='name' placeholder='enter your name')
+            div.f2.f 
+                label(for="email") EMAIL: 
+                input(type="email" id='email' name='email' placeholder='enter your email address')
+            div.f3.f 
+                label(for="number") NUMBER: 
+                input(type="number" id='number' name='number' placeholder='enter your phone no.')
+            div.f4.f 
+                label(for='work') YOUR QUERY: 
+                textarea(name="work", cols="25", rows="7" id='work' placeholder='explain your query') 
+            input#btn(type="submit" value='SUBMIT' )
