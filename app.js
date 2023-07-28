@@ -33,6 +33,9 @@ app.get("/about",  (req, res)=>{
 app.get('/contact' , (req, res)=>{
     res.render('contact.pug')
 })
+app.post('/contact' , (req, res)=>{
+    res.send(alert("SUBMITTED SUCCESSFULLY"))
+})
 
 
 app.listen(port , ()=>{
