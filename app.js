@@ -17,7 +17,7 @@ app.get("/" , (req , res)=>{
 })
 
 app.get("/port" , (req , res)=>{
-    res.status(200).render('portfolio.pug' , {title : "heyport"});
+    res.status(200).render('portfolio.pug' ,{ title :'udit portfolio'}  );
 })
 
 app.get("/projects" , (req , res)=>{
@@ -31,7 +31,7 @@ app.get("/about",  (req, res)=>{
     res.render("about.pug" , {title:"About me"})
 })
 app.get('/contact' , (req, res)=>{
-    res.render('contact.pug')
+    res.render('contact.pug' ,{title : 'contact me'})
 })
 app.post('/contact' , (req, res)=>{
     res.send(alert("SUBMITTED SUCCESSFULLY"))
